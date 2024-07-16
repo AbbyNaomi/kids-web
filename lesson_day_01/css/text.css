@@ -1,0 +1,25 @@
+body{
+    font-family: 'Rubik';
+}
+
+h1{
+    color: cornflowerblue;
+    background-color:wheat;
+    text-align: center;
+    font-weight: 900;
+}
+h2{
+    text-shadow: 2px 5px 10px yellow;
+}
+p{
+    color: blue;
+    background-color: aliceblue;
+    font-style: italic;
+
+}
+.text{
+    color: blueviolet;
+}
+#text_id{
+    color: brown;
+}

@@ -1,0 +1,12 @@
+body{
+    background-image: url("../images/winter.jpg");
+}
+.tuguldur{
+    height: 300px;
+
+}
+.moon{
+    width: 320px;
+    display: block;
+    margin: 0;
+}

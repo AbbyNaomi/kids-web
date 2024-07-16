@@ -1,3 +1,131 @@
-body {
-    background-color: black;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.header{
+    
+    background-color:  rgba(255, 165, 2, 0.50);
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 0 100px ;
+    align-items: center;
+}
+.head_start{
+    color: #3C227C;
+    font-size: 21px;
+    font-weight: bold;
+}
+.head_middle{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #373F41;
+}
+.head_end{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+}
+.sign_up{
+    padding: 10px 18px;
+    background-color: #F73C6B;
+    color: white;
+    border-radius: 6px;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 52px;
+    font-weight: 800;
+    width: 500px;
+    color: #373F41;
+}
+.p{
+    width: 470px;
+    font-size: 18px;
+    color: #737B7D;
+}
+.contact_us{
+    width: 90px;
+    color: #F73C6B;
+    padding: 12px 18px;
+    border: 1px solid #F73C6B;
+}
+.chat1{
+    background-color: #4F55DD;
+    color: white;
+    padding: 24px 30px;
+    width: 470px;
+    box-shadow: 0px 12px 35px 4px rgba(0, 0, 0, 0.05); 
+    border-radius: 15px;
+    font-size: 14px;
+    letter-spacing: 0.30px;
+}
+.chat2{
+    background-color: white;
+    color: #282828;
+    padding: 24px 30px;
+    width: 470px;
+    box-shadow: 0px 12px 35px 4px rgba(0, 0, 0, 0.05); 
+    border-radius: 15px;
+    font-size: 14px;
+    letter-spacing: 0.30px;
+}
+.margin{
+    margin: 30px 80px 100px 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: end;
+}
+.green{
+    background-color: #2ED57380;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.green_text{
+    color: #4F4F4F;
+    font-size: 44px;
+    font-weight: 700;
+    width: 470px;
+    margin: 75px;
+}
+.white{
+    background-color: white;
+    height: 1000px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 100px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 100px;
+}
+.text1{
+    width: 230px;
 }
