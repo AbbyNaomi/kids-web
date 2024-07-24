@@ -1,25 +1,15 @@
 .main{
     width: 1440px;
-    margin: 0 auto;
 }
-
 .image-container{
     width: 920px;
 }
-
 .display{
     width: 300px;
     height: 300px;
-    margin: 10px;
     display: inline;
 }
-
 .display img{
     width: 100px;
     height: 100px;
-    box-shadow: -5px -5px #777777;
-}
-
-span{
-    background-color: aquamarine;
 }

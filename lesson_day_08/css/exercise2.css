@@ -1,0 +1,38 @@
+.text-overflow{
+    background-color: aquamarine;
+    width: 300px;
+    height: 50px;
+    overflow: visible;
+}
+
+.text-margin{
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    /* margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 30px; */
+    margin: 10px 15px 30px 20px;
+
+}
+.text-padding{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px; */
+    padding: 10px 20px 25px 30px;
+}
+.text-border{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 100px;
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: red; */
+    border: 2px dashed red;
+    border-radius: 20px;
+}

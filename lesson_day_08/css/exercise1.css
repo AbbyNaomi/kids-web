@@ -1,0 +1,7 @@
+.box-model-01{
+    background-color: aqua;
+    max-width: 600px;
+    min-width: 400px;
+    max-height: 600px;
+    min-height: 400px;
+}
