@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+}
+.page1{
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    height: 815px;
+}
+header{
+    width: 1440px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.20); border-bottom: 1px rgba(255, 255, 255, 0.40); 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+nav{
+    display: flex;
+    gap: 71px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
